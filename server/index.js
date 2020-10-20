@@ -1,7 +1,7 @@
 const rp = require('request-promise')
 const redis = require('redis')
 const fastify = require('fastify')({ logger: true })
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3400
 const time = 150 // Tiempo en segundos que dura el cacheo en Redis
 
 const client = redis.createClient()
