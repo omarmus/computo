@@ -19,6 +19,10 @@ export default {
           titulo: 'Bolivia'
         },
         {
+          path: 'exterior',
+          titulo: 'Exterior'
+        },
+        {
           path: 'beni',
           titulo: 'Beni'
         },

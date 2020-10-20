@@ -2,6 +2,7 @@ const rp = require('request-promise')
 const redis = require('redis')
 const fastify = require('fastify')({ logger: true })
 const port = process.env.PORT || 3000
+const time = 150 // Tiempo en segundos que dura el cacheo en Redis
 
 const client = redis.createClient()
 
@@ -14,6 +15,10 @@ fastify.register(require('fastify-cors'), {})
 const sitios = {
   bolivia: {
     url: 'presidente',
+    body: {}
+  },
+  exterior: {
+    url: 'presidente/exterior',
     body: {}
   },
   beni: {
@@ -86,7 +91,7 @@ function getQuery (url = '', path = '', body = {}) {
       } else {
         rp({ method: 'POST', uri: searchUrl, body, json: true })
           .then(response => {
-            client.setex(`computo:${path}`, 180, JSON.stringify({ source: 'Redis Cache', ...response }))
+            client.setex(`computo:${path}`, time, JSON.stringify({ source: 'Redis Cache', ...response }))
             resolve({ source: 'Computo API', ...response })
           })
           .catch(err => {

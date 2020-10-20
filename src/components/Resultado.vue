@@ -3,7 +3,7 @@
     class="result"
     :style="{ borderColor: firstColor }">
     <div class="result-header">
-      <h2 class="result-title">{{ titulo }}</h2>
+      <h2 class="result-title">{{ titulo }} <span v-if="path === 'bolivia'"> + Exterior</span></h2>
       <div class="result-porcentage">
         AL {{ porcentage }}%
       </div>
@@ -31,7 +31,7 @@
 
 <script>
 import axios from 'axios'
-import { ref, computed } from 'vue'
+import { ref, computed, onBeforeUnmount } from 'vue'
 import partidosData from '../services/partidos'
 
 export default {
@@ -50,6 +50,7 @@ export default {
     const porcentage = ref(0)
     const lastDate = ref('')
     const publicPath = process.env.BASE_URL
+    let interval
 
     const formatDate = (date = '') => {
       const [fecha, hora] = date.split(' ')
@@ -62,7 +63,7 @@ export default {
       }
     }
 
-    const getData = async () => {
+    const getData = () => {
       axios.get(`${process.env.VUE_APP_API_URL}/computo/${props.path}`)
         .then(response => {
           if (response.data.datoAdicional) {
@@ -88,7 +89,12 @@ export default {
 
     if (props.path) {
       getData()
+      interval = window.setInterval(getData, 90000)
     }
+
+    onBeforeUnmount(() => {
+      window.clearInterval(interval)
+    })
 
     const firstColor = computed(() => {
       if (partidos.value.length) {
@@ -102,153 +108,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.result {
-  background-color: #262B42;
-  box-sizing: border-box;
-  padding: 20px;
-  border-radius: 3px;
-  border-top: 5px solid transparent;
-  margin-bottom: 30px;
-}
-.result-header {
-  display: flex;
-  flex-direction: row;
-}
-.result-title {
-  background-color: #445060;
-  padding: 0px 15px;
-  letter-spacing: 5px;
-  color: #ffffff;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  margin: 0 10px 10px 0;
-  box-sizing: border-box;
-  line-height: 2rem;
-}
-.result-porcentage {
-  background-color: $error;
-  padding: 0px 13px 0px 15px;
-  margin: 0 0 10px 0;
-  font-size: 1.4rem;
-  font-weight: 900;
-  letter-spacing: 4px;
-  box-sizing: border-box;
-  line-height: 2rem;
-}
-.result-fuente {
-  margin: 0 0 0 10px;
-
-  strong {
-    color: $info;
-  }
-
-  a {
-    color: $info;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-.result-body {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.candidate {
-  max-width: 180px;
-  width: 100%;
-}
-.candidate-photo {
-  width: 100%;
-  height: 200px;
-  background-repeat: none;
-  background-size: cover;
-  margin-bottom: 5px;
-}
-.candidate-name {
-  text-align: center;
-  background: #ffffff;
-  padding: 5px 8px;
-  color: #232427;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  font-weight: 900;
-  margin-bottom: 5px;
-}
-.candidate-porcentage {
-  text-align: center;
-  padding: 6px 12px;
-  color: #ffffff;
-  font-size: 1.8rem;
-  font-weight: 900;
-
-  span {
-    font-size: 1.4rem;
-    color: #93A3C0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .candidate {
-    max-width: 150px;
-  }
-  .candidate-photo {
-    height: 170px;
-  }
-  .result-header {
-    flex-wrap: wrap;
-  }
-  .result-title {
-    width: 50%;
-    margin: 0;
-    font-size: 1.4rem;
-  }
-  .result-porcentage {
-    width: 50%;
-    margin: 0;
-  }
-  .result-fuente {
-    width: 100%;
-    padding: 5px 10px 8px 10px;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .result-body {
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  .candidate {
-    max-width: 140px;
-    width: 50%;
-  }
-  .candidate-photo {
-    height: 120px;
-  }
-  .candidate-name {
-    font-size: 1.1rem;
-  }
-  .candidate-porcentage {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-  }
-  .result-title {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  .result-porcentage {
-    width: 100%;
-  }
-}
-
-/* @media screen and (max-width: 600px) {
-
-}
-@media screen and (max-width: 600px) {
-
-} */
-</style>
+<style lang="scss" src="./resultado.scss" />
