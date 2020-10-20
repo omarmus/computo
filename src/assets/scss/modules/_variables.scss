@@ -1,0 +1,19 @@
+:root {
+  --primary: #BF9AFF;
+  --secondary: #ffffff;
+  --info: #36a3f7;
+  --warning: #ffb822;
+  --error: #f4516c;
+  --success: #34bfa3;
+  --bg: #1D2129;
+  --text: #ffffff;
+}
+
+$primary: var(--primary);
+$secondary: var(--secondary);
+$info: var(--info);
+$warning: var(--warning);
+$error: var(--error);
+$success: var(--success);
+$bg: var(--bg);
+$text: var(--text);

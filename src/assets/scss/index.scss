@@ -1,0 +1,20 @@
+@import './vendor/normalize';
+@import './modules/variables';
+
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  background-color: $bg;
+  color: $text;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  color: $text;
+}
+
+h2 {
+  color: $info;
+}
