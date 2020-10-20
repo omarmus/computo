@@ -63,7 +63,7 @@ export default {
     }
 
     const getData = async () => {
-      axios.get(`http://localhost:3000/computo/${props.path}`)
+      axios.get(`${process.env.VUE_APP_API_URL}/computo/${props.path}`)
         .then(response => {
           if (response.data.datoAdicional) {
             const data = response.data
