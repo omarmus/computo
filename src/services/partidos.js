@@ -20,9 +20,9 @@ const partidos = {
     color: '#006430'
   },
   'PAN BOL': {
-    image: '',
-    nombre: '',
-    color: ''
+    image: 'feliciano.jpg',
+    nombre: 'Feliciano',
+    color: '#D7000B'
   },
   'LIBRE 21': {
     image: '',

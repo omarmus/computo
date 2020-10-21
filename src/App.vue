@@ -2,7 +2,7 @@
   <div class="container">
     <Computo />
     <div class="footer">
-      <a href="https://omarmus.com">omarmus.com</a> - {{ new Date().getFullYear() }}
+      <a href="https://omarmus.com" target="_blank">omarmus.com</a> - {{ new Date().getFullYear() }}
     </div>
   </div>
 </template>

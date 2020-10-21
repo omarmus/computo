@@ -8,7 +8,7 @@
         AL {{ porcentage }}%
       </div>
       <div class="result-fuente">
-        Fuente: <strong><a href="https://computo.oep.org.bo" target="_blank">Computo Oficial</a></strong> <br>
+        Fuente: <strong><a href="https://computo.oep.org.bo" target="_blank">Cómputo Oficial</a></strong> <br>
         Última actualización: <strong>{{ lastDate }}</strong>
       </div>
     </div>
