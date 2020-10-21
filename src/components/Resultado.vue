@@ -9,7 +9,10 @@
       </div>
       <div class="result-fuente">
         Fuente: <strong><a href="https://computo.oep.org.bo" target="_blank">Cómputo Oficial</a></strong> <br>
-        Última actualización: <strong>{{ lastDate }}</strong>
+        <span v-if="porcentage != 100">
+          Última actualización: <strong>{{ lastDate }}</strong>
+        </span>
+        <span v-else>Cómputo finalizado <small>✅</small></span>
       </div>
     </div>
     <div class="result-body">
