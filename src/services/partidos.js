@@ -21,7 +21,7 @@ const partidos = {
   },
   'PAN BOL': {
     image: 'feliciano.jpg',
-    nombre: 'Feliciano',
+    nombre: 'Mamani',
     color: '#D7000B'
   },
   'LIBRE 21': {
