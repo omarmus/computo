@@ -1,5 +1,7 @@
 # Computo - Elecciones Generales de Bolivia 2020
 
+El Frontend es una Progresive Web App PWA hecha con Vue 3 y SASS
+
 ## Instalando frontend
 ### Instalando dependencias
 ```
