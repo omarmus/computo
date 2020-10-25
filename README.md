@@ -1,24 +1,30 @@
-# computo
+# Computo - Elecciones Generales de Bolivia 2020
 
-## Project setup
+## Instalando frontend
+### Instalando dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Instalando dependencias
 ```
-npm run serve
+npm install
 ```
 
-### Compiles and minifies for production
+#### Compilar y minificar para producción
 ```
 npm run build
 ```
+## Instalando Backend
 
-### Lints and fixes files
+El Backend está en **Node.js** utilizando el framework **fastify** que procesa una gran cantidad de peticiones mucho mayor a lo que hace Express.js, también para el tema de cacheo de información se uso **redis** mediante un cronjob que obtiene los datos del sitio oficial cada 5 minutos.
+
+### Instalando dependencias
 ```
-npm run lint
+npm install
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Instalando dependencias
+```
+npm start
+```
