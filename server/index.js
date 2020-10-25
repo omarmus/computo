@@ -10,53 +10,6 @@ client.on('error', (err) => {
 
 fastify.register(require('fastify-cors'), {})
 
-const sitios = {
-  bolivia: {
-    url: 'presidente',
-    body: {}
-  },
-  exterior: {
-    url: 'presidente/exterior',
-    body: {}
-  },
-  beni: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 8, idPais: 32 }
-  },
-  chuquisaca: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 1, idPais: 32 }
-  },
-  cochabamba: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 3, idPais: 32 }
-  },
-  'la-paz': {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 2, idPais: 32 }
-  },
-  oruro: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 4, idPais: 32 }
-  },
-  pando: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 9, idPais: 32 }
-  },
-  potosi: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 5, idPais: 32 }
-  },
-  'santa-cruz': {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 7, idPais: 32 }
-  },
-  tarija: {
-    url: 'presidente/nacional',
-    body: { idDepartamento: 6, idPais: 32 }
-  }
-}
-
 fastify.get('/computo/:sitio', async (req, reply) => {
   const { sitio } = req.params
 
@@ -64,19 +17,15 @@ fastify.get('/computo/:sitio', async (req, reply) => {
     return { error: 'Debe enviar el sitio a buscar' }
   }
 
-  if (!sitios[sitio]) {
-    return { error: `No existe el sitio: ${sitio}` }
-  }
-
   try {
-    const result = await getQuery(sitios[sitio].url, sitio, sitios[sitio].body)
+    const result = await getQuery(sitio)
     return result
   } catch (e) {
     return { error: e.message }
   }
 })
 
-function getQuery (url = '', path = '', body = {}) {
+function getQuery (path = '') {
   return new Promise((resolve, reject) => {
     client.get(`computo:${path}`, (err, result) => {
       if (err) {
