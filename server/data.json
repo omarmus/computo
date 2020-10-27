@@ -1,0 +1,1201 @@
+{
+  "bolivia": {
+    "fecha": "27/10/2020 08:09:47",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 862186,
+          "porcien": 14.0,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 3394052,
+          "porcien": 55.11,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 95255,
+          "porcien": 1.55,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 31765,
+          "porcien": 0.52,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 1775953,
+          "porcien": 28.83,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 6159211,
+          "porcien": 94.99
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 91419,
+          "porcien": 1.41
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 233378,
+          "porcien": 3.6
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 6484008,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 7332926,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 7332926,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 35600,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 35600,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 88.42
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "fecha": "27/10/2020 08:14:44",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 19016,
+          "porcien": 11.68,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 112249,
+          "porcien": 68.95,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 2651,
+          "porcien": 1.63,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 1618,
+          "porcien": 0.99,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 27275,
+          "porcien": 16.75,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 162809,
+          "porcien": 95.46
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 1123,
+          "porcien": 0.66
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 6617,
+          "porcien": 3.88
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 170549,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 301631,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 301631,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 1443,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 1443,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 56.54
+        }
+      ]
+    }
+  },
+  "beni": {
+    "fecha": "27/10/2020 08:20:46",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 49128,
+          "porcien": 23.7,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 71957,
+          "porcien": 34.72,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 4031,
+          "porcien": 1.94,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 963,
+          "porcien": 0.46,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 81182,
+          "porcien": 39.17,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 207261,
+          "porcien": 89.69
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 5702,
+          "porcien": 2.47
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 18116,
+          "porcien": 7.84
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 231079,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 270213,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 270213,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 1351,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 1351,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 85.52
+        }
+      ]
+    }
+  },
+  "chuquisaca": {
+    "fecha": "27/10/2020 08:25:36",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 6791,
+          "porcien": 2.24,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 148452,
+          "porcien": 49.06,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 6178,
+          "porcien": 2.04,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 1996,
+          "porcien": 0.66,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 139176,
+          "porcien": 45.99,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 302593,
+          "porcien": 94.02
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 6809,
+          "porcien": 2.12
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 12421,
+          "porcien": 3.86
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 321823,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 368623,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 368623,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 1859,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 1859,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 87.3
+        }
+      ]
+    }
+  },
+  "cochabamba": {
+    "fecha": "27/10/2020 08:25:59",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 13356,
+          "porcien": 1.14,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 773386,
+          "porcien": 65.9,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 11867,
+          "porcien": 1.01,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 3216,
+          "porcien": 0.27,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 371826,
+          "porcien": 31.68,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 1173651,
+          "porcien": 96.63
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 10816,
+          "porcien": 0.89
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 30079,
+          "porcien": 2.48
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 1214546,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 1340548,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 1340548,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 6390,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 6390,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 90.6
+        }
+      ]
+    }
+  },
+  "la-paz": {
+    "fecha": "27/10/2020 08:26:34",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 12319,
+          "porcien": 0.72,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 1162949,
+          "porcien": 68.36,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 28763,
+          "porcien": 1.69,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 11032,
+          "porcien": 0.65,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 486139,
+          "porcien": 28.58,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 1701202,
+          "porcien": 95.97
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 21609,
+          "porcien": 1.22
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 49832,
+          "porcien": 2.81
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 1772643,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 1923305,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 1923305,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 9214,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 9214,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 92.17
+        }
+      ]
+    }
+  },
+  "oruro": {
+    "fecha": "27/10/2020 08:27:07",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 2746,
+          "porcien": 0.93,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 186452,
+          "porcien": 62.94,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 6301,
+          "porcien": 2.13,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 2940,
+          "porcien": 0.99,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 97812,
+          "porcien": 33.02,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 296251,
+          "porcien": 95.57
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 4475,
+          "porcien": 1.44
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 9258,
+          "porcien": 2.99
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 309984,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 339950,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 339950,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 1704,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 1704,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 91.19
+        }
+      ]
+    }
+  },
+  "pando": {
+    "fecha": "27/10/2020 08:27:31",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 14817,
+          "porcien": 26.22,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 25883,
+          "porcien": 45.8,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 1025,
+          "porcien": 1.81,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 157,
+          "porcien": 0.28,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 14635,
+          "porcien": 25.89,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 56517,
+          "porcien": 94.54
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 1102,
+          "porcien": 1.84
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 2160,
+          "porcien": 3.61
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 59779,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 72136,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 72136,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 403,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 403,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 82.87
+        }
+      ]
+    }
+  },
+  "potosi": {
+    "fecha": "27/10/2020 08:27:57",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 10248,
+          "porcien": 2.79,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 211571,
+          "porcien": 57.61,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 9408,
+          "porcien": 2.56,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 4364,
+          "porcien": 1.19,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 131635,
+          "porcien": 35.85,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 367226,
+          "porcien": 92.06
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 12932,
+          "porcien": 3.24
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 18753,
+          "porcien": 4.7
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 398911,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 453287,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 453287,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 2364,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 2364,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 88.0
+        }
+      ]
+    }
+  },
+  "santa-cruz": {
+    "fecha": "27/10/2020 08:28:21",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 717742,
+          "porcien": 45.07,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 576567,
+          "porcien": 36.21,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 18037,
+          "porcien": 1.13,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 4137,
+          "porcien": 0.26,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 275868,
+          "porcien": 17.32,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 1592351,
+          "porcien": 94.61
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 19980,
+          "porcien": 1.19
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 70754,
+          "porcien": 4.2
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 1683085,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 1886387,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 1886387,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 9016,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 9016,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 89.22
+        }
+      ]
+    }
+  },
+  "tarija": {
+    "fecha": "27/10/2020 08:28:48",
+    "correcto": true,
+    "notificacion": "Transacción satisfactoria",
+    "datoAdicional": {
+      "grafica": [
+        {
+          "nombre": "CREEMOS",
+          "valor": 16023,
+          "porcien": 5.35,
+          "color": "#91268e"
+        },
+        {
+          "nombre": "ADN",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#ee1c25"
+        },
+        {
+          "nombre": "MAS-IPSP",
+          "valor": 124586,
+          "porcien": 41.62,
+          "color": "#0033FF"
+        },
+        {
+          "nombre": "FPV",
+          "valor": 6994,
+          "porcien": 2.34,
+          "color": "#EEEEEE"
+        },
+        {
+          "nombre": "PAN BOL",
+          "valor": 1342,
+          "porcien": 0.45,
+          "color": "#e0192e"
+        },
+        {
+          "nombre": "LIBRE 21",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#089a35"
+        },
+        {
+          "nombre": "CC",
+          "valor": 150405,
+          "porcien": 50.24,
+          "color": "#EA6626"
+        },
+        {
+          "nombre": "JUNTOS",
+          "valor": 0,
+          "porcien": 0.0,
+          "color": "#80FF00"
+        }
+      ],
+      "tabla": [
+        {
+          "nombre": "Votos Válidos",
+          "valor": 299350,
+          "porcien": 93.08
+        },
+        {
+          "nombre": "Votos Blancos",
+          "valor": 6871,
+          "porcien": 2.14
+        },
+        {
+          "nombre": "Votos Nulos",
+          "valor": 15388,
+          "porcien": 4.78
+        },
+        {
+          "nombre": "Votos Emitidos",
+          "valor": 321609,
+          "porcien": null
+        },
+        {
+          "nombre": "Ciudadanos Habilitados por Actas Computadas",
+          "valor": 376846,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Ciudadanos Habilitados",
+          "valor": 376846,
+          "porcien": null
+        },
+        {
+          "nombre": "Total Actas Computadas",
+          "valor": 1856,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Total Actas Anuladas",
+          "valor": 0,
+          "porcien": 0.0
+        },
+        {
+          "nombre": "Total Actas Habilitadas",
+          "valor": 1856,
+          "porcien": 100.0
+        },
+        {
+          "nombre": "Participación por Actas Computadas",
+          "valor": null,
+          "porcien": 85.34
+        }
+      ]
+    }
+  }
+}

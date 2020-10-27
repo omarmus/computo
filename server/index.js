@@ -1,6 +1,7 @@
 const redis = require('redis')
 const fastify = require('fastify')({ logger: true })
 const port = process.env.PORT || 3400
+const data = require('./data.json')
 
 const client = redis.createClient()
 
@@ -34,6 +35,9 @@ function getQuery (path = '') {
       if (result) {
         resolve(JSON.parse(result))
       } else {
+        if (data[path]) {
+          return data[path]
+        }
         reject(new Error('No existe el registro'))
       }
     })
