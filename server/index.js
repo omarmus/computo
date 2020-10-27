@@ -36,7 +36,7 @@ function getQuery (path = '') {
         resolve(JSON.parse(result))
       } else {
         if (data[path]) {
-          return data[path]
+          return resolve(data[path])
         }
         reject(new Error('No existe el registro'))
       }
